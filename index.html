@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ポートフォリオ</title>
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./css/ress.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>My Work - Portfolio</title>
 </head>
+
 <body>
-	<h1>くまにく</h1>
-	<p>くまにくのポートフォリオです。</p>
+	<header id="header" class="wrapper">
+		<h1 class="site-title"><a href="./">My Work</a></h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#works">Works</a></li>
+				<li><a href="#news">News</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div id="main-visual">
+			<!-- <img src="./img/mainvisual-pc.jpg" alt="メインビジュアル"> -->
+		</div>
+
+		<section id="about" class="wrapper">
+			<h2 class="section-title">About</h2>
+			<div class="image">
+				<img src="img/about.jpg" alt="くまにく">
+				<h3>くまにく</h3>
+			</div>
+			<div class="text">
+				<p>兵庫県在住のITエンジニア・プログラマです。</p>
+				<p>時代はWeb！ということで、Web制作も手掛けています。</p>
+				<p>お仕事のご依頼は、<a class="link-contact" href="https://crowdworks.jp/public/employees/5255733" target="_blank" rel="noopener">クラウドワークスのこちらのページ</a>へ。</p>
+			</div>
+		</section>
+
+		<section id="works" class="wrapper">
+			<h2 class="section-title">Works</h2>
+			<ul class="items">
+				<li>
+					<a href="./works/foodlifeprofile/" target="_blank" rel="noopener"><img src="./img/works001.jpg" alt="ワーク001">
+					<h3 class="item-title">習作</h3>
+					<p>テストサイトです。</p></a>
+				</li>
+				<li>
+					<a href="./works/foodlifeblog/" target="_blank" rel="noopener"><img src="./img/works002.jpg" alt="ワーク002">
+					<h3 class="item-title">習作</h3>
+					<p>テストサイトです。</p></a>
+				</li>
+				<li>
+					<a href="./works/storesite/" target="_blank" rel="noopener"><img src="./img/works003.jpg" alt="ワーク003">
+					<h3 class="item-title">習作</h3>
+					<p>テストサイトです。</p></a>
+				</li>
+			</ul>
+		</section>
+
+		<section id="news" class="wrapper">
+			<h2 class="section-title">News</h2>
+			<dl>
+				<dt>2023.XX.XX</dt>
+				<dd>XXXXXXXX。</dd>
+			</dl>
+		</section>
+
+		<section id="contact" class="wrapper">
+			<h2 class="section-title">Contact</h2>
+			<p>お仕事のご依頼は、<a class="link-contact" href="https://crowdworks.jp/public/employees/5255733" target="_blank" rel="noopener">クラウドワークスのこちらのページ</a>まで、お願いいたします。</p>
+		</section>
+	</main>
+
+	<footer id="footer">
+		<p>&copy; 2023 My Work</p>
+	</footer>
 
 </body>
+
 </html>
