@@ -114,10 +114,19 @@ img {
 
 #works li {
 	width: 32%;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	box-shadow: 0 0 8px 4px #ccc;
 }
 
 #works li img {
+	margin-bottom: 20px;
+}
+
+#works li .item-title {
+	margin-bottom: 20px;
+}
+
+#works li p {
 	margin-bottom: 20px;
 }
 
